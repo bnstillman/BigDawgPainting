@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+}
+
+html {
+	padding:1.5%;
+	padding-top:0;
+	padding-bottom:0;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhMDgwOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI2JSIgc3RvcC1jb2xvcj0iI2ZmNDk0YyIgc3RvcC1vcGFjaXR5PSIwLjc0Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjQ5NGMiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(10,8,9,1) 0%, rgba(255,73,76,0.74) 26%, rgba(255,73,76,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(10,8,9,1)), color-stop(26%,rgba(255,73,76,0.74)), color-stop(100%,rgba(255,73,76,0)));
+background: -webkit-linear-gradient(top,  rgba(10,8,9,1) 0%,rgba(255,73,76,0.74) 26%,rgba(255,73,76,0) 100%);
+background: -o-linear-gradient(top,  rgba(10,8,9,1) 0%,rgba(255,73,76,0.74) 26%,rgba(255,73,76,0) 100%);
+background: -ms-linear-gradient(top,  rgba(10,8,9,1) 0%,rgba(255,73,76,0.74) 26%,rgba(255,73,76,0) 100%);
+background: linear-gradient(to bottom,  rgba(10,8,9,1) 0%,rgba(255,73,76,0.74) 26%,rgba(255,73,76,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0809', endColorstr='#00ff494c',GradientType=0 );
+
+
+}
+
+body {
+	background-color:#ffffff;
+	width:85%;
+	margin:auto;
+	margin-bottom:0;
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/*HEADER AND NAVIGATION STYLES*/
+header img {
+	position:relative;
+	margin-top:-3%;
+}
+nav {
+	float:right;
+	padding:1%;
+}
+nav a:link, nav a:visited {
+	text-decoration:none;
+	color:red;
+	margin-left:2em;
+	margin-right:2em;
+	font-variant:small-caps;
+}
+/*SPECIAL OFFER section*/
+#specialOffer {
+	background-color:#ff0000;
+	margin:auto;
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+#specialOffer table {
+	width:100%;
+	text-align:center;
+}
+#specialOffer td #special {
+	width:70%;
+}
+#special p{
+	margin-right:.5em;
+		text-align:center;
+}
+#specialOffer em {
+	font-weight:bold;	
+	text-decoration:underline;
+}
+#phoneNum {
+	background-color:yellow;
+}
+/*CONTENT DIV STYLES*/
+
+#content {
+	clear:both;
+	margin-top:-10%;
+	padding:1%;
+	padding-top:0;
+	padding-bottom:0;
+}
+#content h1, #content h2, #content p {
+	margin:3%;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+#content p {
+	text-align:justify;
+	line-height:1.5em;
+}
+#content h1, #content h3 {
+	text-align:center;
+	padding-bottom:1em;
+}
+#content h2 {
+	text-align:center;
+	clear:both;
+}
+#content li {
+	margin-left:1em;	
+}
+
+#content img {	
+	width:30%;
+	float:right;
+	margin:1%;
+	margin-left:3%;
+	border-style:double;
+	border-color:black;
+	box-shadow:5px 10px 15px black;
+}
+#container {
+	clear:both;
+	float:left;
+}
+#content ul {
+	margin-left:10%;
+}
+#testimonialTick q{
+	margin-top:10%;
+	text-align:justify;
+	display:block;
+}
+#testimonialTick em {
+	display:block;
+	font-weight:bold;
+	font-style:normal;	
+	text-align:right;
+}
+#testimonialTick p {
+	text-align:center;
+	margin-top:2em;
+}
+#beforeAfter {
+	overflow:hidden;
+	text-align:center;
+}
+#beforeAfter img {
+	height:85%;
+}
+#freeEstimate {
+	text-align:center;
+}
+#freeEstimate img{
+	width:90%;
+	margin-top:8%;
+}
+#container section { 
+	background-color:#ff0000;
+	height:35%;
+	width:30%;
+	margin:1%;
+	float:left;
+	padding:0.5%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color:black;
+	border-style:solid;
+	border-width:thin;
+	box-shadow:5px 10px 15px black;
+	overflow:hidden;
+}
+
+/*FOOTER*/
+footer {
+	clear:both;	
+	background-color:#ff0000;
+	border-top-color:black;
+	border-top-style:solid;
+	border-top-width:thin;
+}
+footer h5{
+	text-align:center;
+}
+footer #siteMap {
+	margin:0.5%;
+	text-decoration:underline;	
+}
